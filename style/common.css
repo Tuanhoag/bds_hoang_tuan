@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+body {
+    display: block;
+    padding: 0px 15%;
+    height: 100%;
+    width: 100%;
+}
+div{
+    border: 1px solid black!important;
+}
+
+.heading {
+    display: block;
+    justify-content: center;
+}
+
+.navbar {
+    /* height: 100px; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    /* position: sticky; */
+    /* Static: Mặc định */
+    /* fixed relative sticky static absolute */
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+    /* max-width: 1300px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__logo {
+    height: 100%;
+    width: 30%;
+}
+
+.navbar__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar__banner {
+    width: 70%;
+    height: 100%;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.slogan {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    font-size: 16px;
+}
+
+.phone {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    font-size: 16px;
+}
+
+.gmail {
+    color:#1378b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    font-size: 16px;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.button {
+    text-decoration: none;
+    color: #1378b3;
+    font-size: 16px;
+}
+
+.navbar__item {
+    height: 40px;
+    width: 100%;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    font-size: small;
+    background-color: rgb(61, 61, 238);
+    border-right: 1px solid #1378b3;
+    border-left: 2px solid #005282;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ /*  */
+
+ .main {
+    padding-top: 30px;
+    margin: 0;
+    display: flex;
+    /* width: 1100px; */
+    /* justify-content: center;
+    align-items: center */
+ }
+
+ .main__container {
+    width: 70%;
+    height: 500px;
+    display: block;
+ }
+
+ .main__sidebar {
+    display:flex;
+    width: 30%;
+ }
+
+ .search__box {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+ }
+
+ .search__box form {
+     margin: 0;
+     padding: 0;
+ }
+
+ .search__box .input-box {
+    padding: 7px;
+    width: 100%;
+    height: auto;
+ }
+
+ .search__box * {
+    width: 100%;
+    margin-bottom: 7px;
+ }
+
+ .search__box button {
+    width: 90px;
+    height: 30px;
+ }
+
+form {
+    background-color: #005282;
+    width: 100%;
+    height: 100%;
+}
+
+form * {
+    height: 30px;
+}
+
+form p {
+    text-align: center;
+    background-color:#1378b3;
+    background-size: 100%;
+    margin: 0%;
+}
+
+ /* .tb {
+     padding-left: 10px;
+     margin-left: 15px;
+ } */
+
+ /* .slcbox {
+     padding-left: 10px;
+     margin-left: 15px;
+ } */
+
+ form button {
+     margin-left: 15px;
+     color: #fff;
+     background-color: #1378b3;
+ }
+
+/* .top__content {
+    width: 100%;
+    height: 500px;
+}
+
+.top__content table {
+    width: 100%;
+    height: 100%;
+}*/

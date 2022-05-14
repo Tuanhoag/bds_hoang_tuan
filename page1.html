@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .block {
+        display: inline-block;
+        border: 1px solid black;
+        color: white;
+        font-size: 50px;
+        width: 400px;
+        height: 400px;
+      }
+      .bl-1 {
+        background-color: green;
+        position: static;
+        left: 100px;
+        top: 100px;
+      }
+      .bl-2 {
+        background-color: red;
+        /* Hồn ở lại, xác đi + điều hướng theo màn hình */
+        position: relative;
+        left: 1000px;
+        top: 500px;
+      }
+      .bl-2 span {
+        color: pink;
+        /* Giống fixed nhưng căn theo thẻ cha có position:relative gần nhât */
+        position: absolute;
+        left: 0px;
+        top: 300px;
+      }
+      .bl-3 {
+        background-color: violet;
+        /* Bay cả hồn cả xác + điều hướng theo màn hình */
+        position: fixed;
+        left: 0px;
+        top: 300px;
+      }
+      .bl-4 {
+        background-color: yellow;
+      }
+      .bl-5 {
+        background-color: brown;
+      }
+      .bl-6 {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block bl-1">1</div>
+    <div class="block bl-2">
+      <span>2</span>
+    </div>
+    <div class="block bl-3">3</div>
+    <div class="block bl-4">4</div>
+    <div class="block bl-5">5</div>
+    <div class="block bl-6">6</div>
+  </body>
+</html>
